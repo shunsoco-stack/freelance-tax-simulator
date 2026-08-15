@@ -10,6 +10,8 @@
 
 **公開デモ：<https://freelance-tax-kj-019fe135.web.app>**
 
+**GitHub：<https://github.com/shunsoco-stack/freelance-tax-simulator>**
+
 - 対応年度: 2026年分（令和8年分）
 - 税制最終確認日: 2026-08-08
 - データ保存: ブラウザのlocalStorageのみ（税務データをサーバーへ送信しません）
