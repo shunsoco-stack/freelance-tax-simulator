@@ -514,7 +514,7 @@ function OtherStep({ input, onChange, onClearStorage }: StepProps & { onClearSto
         </div>
       </details>
       <div className="privacy-panel">
-        <div><strong>この端末だけに保存</strong><p>入力値はブラウザのlocalStorageへ保存され、サーバーへ送信されません。</p></div>
+        <div><strong>この端末だけに保存</strong><p>入力値はブラウザのlocalStorageへ保存し、税務データとして外部サーバーへ送信することはありません。本番ページ末尾の広告配信（忍者AdMax）は、入力値とは無関係に広告用スクリプトを読み込みます。</p></div>
         <button type="button" className="button button-danger-subtle" onClick={onClearStorage}>保存データを削除</button>
       </div>
     </div>
