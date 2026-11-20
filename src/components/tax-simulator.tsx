@@ -189,7 +189,7 @@ export function TaxSimulator() {
 
         <section className="privacy-strip">
           <ShieldCheck size={22} />
-          <div><strong>税務データをクラウドへ送りません</strong><p>ログイン不要。入力値はこのブラウザ内だけに保存され、計算も端末上で完結します。</p></div>
+          <div><strong>税務データをクラウドへ送りません</strong><p>ログイン不要。入力値はこのブラウザ内だけに保存され、税額の計算も端末上で完結します。本番ページ末尾では広告配信のため通信が発生しますが、入力した税務データを広告のために送信することはありません。</p></div>
           <button type="button" className="button button-ghost" onClick={clearData}><RotateCcw size={16} />新しく入力</button>
         </section>
       </main>

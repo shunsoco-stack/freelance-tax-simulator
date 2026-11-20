@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { LegalFooter } from "@/components/legal-footer";
 
 export const metadata: Metadata = {
   title: "個人事業主 税金予測シミュレーター",
@@ -25,7 +26,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja" data-scroll-behavior="smooth">
-      <body>{children}</body>
+      <body>
+        {children}
+        <LegalFooter />
+      </body>
     </html>
   );
 }
